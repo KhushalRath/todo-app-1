@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #9A55F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Teko", serif;
+}
+#main {
+  min-height: 85vh;
+  width: 50%;
+  border-radius: 17px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#todo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0px;
+}
+#form{
+  width: 90%;
+}
+.inpt-add-sec{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#inpt-1 {
+  width: 80%;
+  height: 36px;
+  border: 2px solid #9A55F3;
+  outline-color: #5903c9;
+  border-radius: 6px;
+  text-indent: 12px;
+}
+#add-btn{
+  width: 17%;
+  border: none;
+  background-color: #9A55F3;
+  color: white;
+  height: 37px;
+  border-radius: 6px;
+}
+#add-btn:hover{
+  background-color: #6707e5;
+}
+#ul{
+  width: 90%;
+  margin: 12px 0px;
+}
+.btns-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list{
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  text-indent: 12px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a15ef8;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  margin-top: 8px;
+}
+.list:hover{
+  background-color: #7d21f5;
+}
+.edit-img{
+  width: 23px;
+  height: 23px;
+}
+.editbtn{
+  border: none;
+  border-radius: 5px;
+  padding-top: 2px;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+.editbtn:hover{
+  background-color: rgb(223, 216, 216);
+}
